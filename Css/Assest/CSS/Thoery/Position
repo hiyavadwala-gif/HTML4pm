@@ -1,0 +1,26 @@
+
+NOTE: Position-{applys to Left,Right,Top,bottom}
+
+
+Static- it has default value & does not apply top,bottom,right,left&z-index.
+
+Relative- its place will be occpiued so                                                                
+                                                                                                    <!-- ctrl+alt+downarrow  to copy a p-->
+<!-- shift+alt+f=in one line -->
+
+
+Absolute- its place will not be occpiued 
+
+
+Fixed- its Position will bee fixed on the screen even if you scroll down the screen  it applys move all over the body 
+
+
+Sticky- its Position will bee Sticky on the screen even for a particular section  you scroll down the screen it applys for section 
+
+Position Offsets- Moving its Position left, right,top,bottom.
+  
+ Absolute & Relative- 
+
+
+
+ overflow- hidden & scroll-
