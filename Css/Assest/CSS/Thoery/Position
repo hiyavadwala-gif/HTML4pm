@@ -1,4 +1,4 @@
-
+<!-- flex propertie will apple to parenet  -->
 NOTE: Position-{applys to Left,Right,Top,bottom}
 
 
@@ -6,7 +6,7 @@ Static- it has default value & does not apply top,bottom,right,left&z-index.
 
 Relative- its place will be occpiued so                                                                
                                                                                                     <!-- ctrl+alt+downarrow  to copy a p-->
-<!-- shift+alt+f=in one line -->
+                                                                                                        <!-- shift+alt+f=in one line -->
 
 
 Absolute- its place will not be occpiued 
@@ -23,4 +23,14 @@ Position Offsets- Moving its Position left, right,top,bottom.
 
 
 
- overflow- hidden & scroll-
+ overflow- hidden & scroll- contain is more than div if you add hidden  (its place will not be ocupies)than it cuts the contain & same goes with scroll it will given a scroll pannel
+
+
+ Visibility-  hidden,visible,copllase- that line will disapper in output but
+ it same as overflow hidden but in this it will occpuies space 
+
+
+
+
+ <!-- .50*2 -->
+

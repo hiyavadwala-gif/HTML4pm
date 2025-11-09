@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0%;
     box-sizing: border-box;
+    /* align-self: center; */
+    /* align-items: center; */
+    /* align-content: center; */
 }
 body{
     display: flex;
@@ -45,6 +48,11 @@ body{
     background-color: rgba(5, 7, 118, 0.404);
     color: white;
     display: flex;
+    width: 300px;
+    height: 100px;
+    margin: 5px;
+    padding: 10px;
+    justify-content: center;
 }
 /* Middle Row */
 .Middle{ 
@@ -56,15 +64,22 @@ body{
 
     background-color: rgba(36, 69, 26, 0.552);
     color:white;
+    width: 300px;
+    height: 125px;
+    
 }
-.thrid{
+/* .thrid{
     display: flex;
     gap: 10px;
-}
+} */
 .box4,.box5{
     
     background-color: rgba(148, 35, 93, 0.404);
     color: white;
+    width: 200px;
+    height: 50px;
+    /* display: inline-block; */
+    display: flex;
 }
 .last{
     display: flex;
@@ -73,7 +88,13 @@ body{
 .box6,.box7,.box8{
     background-color: rgba(128, 78, 13, 0.404);
     color:white;
+    width: 180px;
+    height: 100px;
+    margin: 5px;
+    padding: 5px;
+
 }
 .row{
     display: flex;
+    gap: 10px;
 }

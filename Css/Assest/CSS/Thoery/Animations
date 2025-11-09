@@ -1,0 +1,19 @@
+Transition will work smoothily, in this roTATION IS NOT possbile
+
+
+Transitions- its properties are 
+Transitions-property,
+transitions-durations,
+t-delay,
+transitions-timing-functions
+
+
+ without transition Transform will not work soomthily  Transform will change its shape, in this rotation is possible.
+
+
+Transform-its properties are 
+rotate
+scale- used for popup
+skew-it sterecth /
+
+Animation- @keyframe 
