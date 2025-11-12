@@ -1,0 +1,13 @@
+
+ Filters-
+ 1. blur-it work in px 
+2.  brightness-%
+3.  contrast- light & dark
+4. dropshadow- X-axies + Y-axies +blur + colour
+5.  grayscale- % become black & white
+6. hue-rotate- changes colour in pink shade
+7. invert- 
+8. opactiy-
+9. saturate- 
+10. sepia- 
+SHORTHAND- BRIGHTNESS,CONTRASTE,sepia,blur

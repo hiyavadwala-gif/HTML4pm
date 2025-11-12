@@ -1,0 +1,22 @@
+*{margin: 0px;
+    padding: 0px;}
+
+    .header-bg-color{
+        background-color: rgb(221, 150, 197);
+    }
+    .row{
+        display: flex;
+    }
+    .jsc{
+        justify-content: space-between;
+    }
+    li{
+        display: inline-block;
+        
+    }
+
+    li>a{
+        text-decoration: none;
+        color: white;
+    }
+    

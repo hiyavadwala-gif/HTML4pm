@@ -1,0 +1,14 @@
+
+*{margin: auto;padding: auto;}
+p{color: blue;}
+.name{color: yellow;}
+#header{color: green;}
+p span{color: red;}
+p,div{color: blue;}
+li{color: pink;}
+div span{color: purple;}
+p+h2{color: green;}
+h2~p{color: orange;}
+.name,#header{color: rgb(0, 229, 255);}
+a nav {color: white;}
+div, {color: #000;}
