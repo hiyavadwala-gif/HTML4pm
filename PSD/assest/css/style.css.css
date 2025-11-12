@@ -2,7 +2,8 @@
     padding: 0px;}
 
     .header-bg-color{
-        background-color: rgb(221, 150, 197);
+        background-color: #e59090;
+        
     }
     .row{
         display: flex;
@@ -18,5 +19,43 @@
     li>a{
         text-decoration: none;
         color: white;
+        font-size: 20px;
+        padding: 0 20px;
     }
-    
+    .alc{
+        align-items: center;
+    }
+    .logo{
+        padding: 40px;
+    }
+    .search{
+        margin-right: 20px;
+    }
+           /*--------------------------------- Section-One---------------------------------------  */
+    .sec-one{
+        background-image: url("../Images/Sushi.png");
+        /* height: 600px; */
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 95px;
+    }
+    .sec-one-text{
+        color: white;
+        padding: 100px 0 100px 50px;
+    }
+    .sec-one-text h1{
+        font-size: 80px;
+        padding-bottom: 40px;
+    }
+    .sec-one-text p{
+        font-size: 30px;
+        width: 35%;
+        padding-bottom: 40px;
+    }
+    .sec-one-text button{
+        padding: 15px 40px;
+        border: 2px solid;
+        border-radius:50px ;
+        background-color: #6db3ab;
+        color: black;
+    }
