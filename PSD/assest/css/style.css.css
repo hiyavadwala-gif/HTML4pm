@@ -131,19 +131,18 @@ li>a {
 }
 
 /*--------------------------------- Section-three---------------------------------------  */
-.sec-three-box{
+.sec-three-box {
     background-color: #e59090;
     padding-bottom: 150px;
-
-}
-.box h3,p{
-    padding: 10px 0 ;
+    margin: 0 auto;
 }
 
-.sec-three-text {
-    /* display: flex; */
-    font-weight: bold;
+.box h3,
+p {
+    padding: 10px 0;
 }
+
+
 
 .sec-three img {
     padding: 100px;
@@ -155,11 +154,159 @@ li>a {
     padding: 100px;
     margin-bottom: 60px;
 }
+
 .col30 {
     width: 25%;
     margin: 0 auto;
-     color: white;
-     font-size: 20px;
-     /* padding-top: 20px; */
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+
+
 }
 
+
+
+/* Media  */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+ .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .col30{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+    /* .sec-three-po-img {
+        text-align: right;
+    }
+
+    .sec-three-po-img img {
+        width: 50%;
+    }
+} */ 
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+ .container { 
+    width: 100%;
+        margin: 0 auto;
+    }
+
+    .col30 {
+        width: 50%;
+        margin: 0 auto;
+    }
+} 
+
+ /* // Large devices (desktops, 992px and up) */ 
+ @media (min-width: 992px) { 
+ .container {
+        width: 960px;
+        margin: 0 auto;
+    }
+
+    .col-30 {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+ /* // X-Large devices (large desktops, 1200px and up) */ 
+ @media (min-width: 1200px) {
+    .container {
+        width: 1180px;
+        margin: 0 auto;
+    }
+
+    .col-30 {
+        width: 30%;
+        margin: 0 auto;
+    } 
+ } 
+
+ /* // XX-Large devices (larger desktops, 1400px and up) */ 
+ @media (min-width: 1400px) {} 
+
+/* --------------------------------- Section-four---------------------------------------   */
+
+.sec-four {
+    margin: 0 auto;
+    /* margin-bottom: 80px; */
+    padding-bottom: 80px;
+}
+
+.sec-four-text {
+    /* margin: 0 auto; */
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+    font-weight: bold;
+    font-size: 50px;
+    color: #2fb4ac;
+    font-family: "Montserrat"
+
+}
+
+.sec-four-text-p {
+    font-size: 5px;
+    font-weight: 10%;
+    width: 200px;
+    color: #2fb4ac;
+}
+
+.sec-four-text-shapes {
+    margin: 0 auto;
+    /* align-content: center; */
+    padding: 20px 100px;
+    display: flex;
+
+}
+
+/* --------------------------------- Section-five------------------------------------------------------------------------   */
+
+.sec-five {
+    background-color: aqua;
+    padding: 100px;
+    margin: 0 auto
+         
+    
+}
+
+.sec-five-text {
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 50px;
+    padding: 80px;
+
+}
+
+.sec-five-text-p {
+    font-size: 5px;
+    font-weight: 10%;
+    width: 200px;
+    color: white
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------sec-six------------------------------------------------------------- */
