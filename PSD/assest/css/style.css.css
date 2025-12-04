@@ -275,29 +275,37 @@ p {
 
 .sec-five {
     background-color: aqua;
-    padding: 100px;
-    margin: 0 auto
-         
+    padding: 100px ;
+    margin:0 auto
     
 }
 
 .sec-five-text {
     font-weight: bold;
-    font-size: 40px;
+    font-size: 30px;
     color: white;
     font-family: 'Courier New', Courier, monospace;
-    margin-bottom: 50px;
-    padding: 80px;
+    /* margin-bottom: 60px; */
+    padding : 60px;
 
 }
 
 .sec-five-text-p {
     font-size: 5px;
-    font-weight: 10%;
+    font-weight: 20%;
     width: 200px;
     color: white
 }
-
+.sec-five button {
+    padding: 15px 40px;
+    border: 2px solid;
+    border-radius: 50px;
+    background-color: #e59090;
+    color: white;
+    font-weight: bolder;
+    font-size: 50%;
+    margin-bottom: 100px;
+}
 
 
 
@@ -310,3 +318,31 @@ p {
 
 
 /* ------------------------------------------------------sec-six------------------------------------------------------------- */
+.sec-six {
+    background-image: url("../Images/BG_SE-6.png");
+    /* height: 600px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 100px;
+    /* padding-bottom: 100px;    */
+    
+    
+}
+.sec-six-text {
+     font-size: 80px;
+    font-weight: 80px;
+    /* width: 100px; */
+    padding-bottom: 100px;
+    color: white 
+}
+
+.sec-six p  {
+    font-size: 40px;
+    /* width: 100px; */
+    /* font-weight: 200%; */
+    color: white;
+    padding-bottom: 100px;
+}
+
+
