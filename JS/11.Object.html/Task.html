@@ -29,6 +29,22 @@
 // console.log(count); 
 
 // Q3.Loop through the keys and print them.
+// const user = {
+//     name: 'hiya vadwala',
+//     age: 19,
+//     occupation: 'learing'
+// };
+
+// for (const key in user) {
+//     // Check if the property is an own property of the object
+//     if (Object.hasOwnProperty.call(user, key)) {
+//         console.log(key); // Prints only the key
+//         // To print the value as well:
+//         // console.log(`${key}: ${user[key]}`); 
+//     }
+// }
+
+
 
 
 //Q4. Sort keys alphabetically.
@@ -36,14 +52,86 @@
 // console.log(arr);
 //  console.log(arr.sort());
 
+// Q. Join all keys into a string with commas. (D)
+// const myObject ={
+//     key1 : 'value1',
+//     key2 : 'value2',
+//     key3:  'value3'
+// };
+
+// const keyString =  object.keys(myObject).join(',');
+// console.log("keyString");
+
+// Q6.Convert keys to uppercase.
+// let a = "hiya vadwala"
+// console.log(a.toUpperCase());
+
+
 
 // Q5.Check if a certain key exists using includes().
+// const keytoCheck = "person"
+// console.log(Object.key("const").includes(keytoCheck));
 
-// Convert keys to uppercase.
-// Map over keys to create a custom label.
-// Filter keys that start with a letter.
-// Join all keys into a string with commas.
-// Get keys from a nested object using recursion.
+// -------------------------------------------------Object.values-------------------------------------------------------------
+
+// Q1.Get all values from an object.
+
+// const obj = {
+//     name : "hiya",
+//     age :19,
+//     occupation : "learing"
+// };
+// const valuesArray = Object.values(obj);
+// console.log(valuesArray);
+
+// Q2. Sum numeric values.
+// const sampleObject ={
+//     a : 10,
+//     b : 8
+// };
+// const sumNumericValues = (obj) =>  {
+//     return Object.values(obj).reduce((accumulator, currentvalue) => {
+//         if (typeof currentvalue === 'number') {
+//             return accumulator+ currentvalue;
+//         }
+//         return accumulator;
+//     },0) ; 
+// };
+// const totalsum = sumNumericValues(sampleObject);
+// console.log(totalsum);
+
+//  Q5. Check if a value exists using includes().
+
+// const greeting = 'hello world';
+// console.log(greeting.includes('world'));
+// console.log(greeting.includes('hello',5));
+
+
+
+
+//  Q6.Find the longest string value.
+//  let a = "85465489658964751297649654358965";
+//  console.log(a.length);
+// Q7. Count how many values are true.
+
+// const booleanArray = [true, false, true, true, false];
+
+// const count = booleanArray.filter(Boolean).length;
+
+// console.log(count); 
+
+
+// Q8. Create a sentence from values.
+const firstName = "Hiya";
+const lastName = "Vadwala";
+const age = 19;
+
+// Use backticks (`) to define the string
+const sentence = `My name is ${firstName} ${lastName} and I am ${age} years old.`;
+
+console.log(sentence);
+// Output: My name is  Hiya Vadwala and I am 19 years old.
+ 
     </script>
 </body>
 </html>
